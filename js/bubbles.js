@@ -39,7 +39,7 @@ $(document).ready(function(){
 
   Bubble.prototype.draw = function(){
 
-    // document.body.addEventListener('click', this.click.bind(this));
+    // document.body.addEventListener('click', this.click.bind(this));  
 
     this.posX += this.vx;
     this.posY += this.vy;
